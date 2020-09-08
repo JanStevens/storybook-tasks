@@ -877,7 +877,8 @@ a:focus {
   text-align: center;
 }
 .list-item.TASK_PINNED .icon-star {
-  color: #2cc5d2;
+  /* color: #2cc5d2; */
+  color: red;
 }
 .list-item.TASK_ARCHIVED input[type='text'] {
   color: #aaa;
