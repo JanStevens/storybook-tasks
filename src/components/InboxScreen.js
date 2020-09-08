@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import TaskList from './TaskList'
 import { useSelector } from 'react-redux'
 
@@ -25,6 +26,10 @@ export const PureInboxScreen = ({ error }) => {
       <TaskList />
     </div>
   )
+}
+
+PureInboxScreen.propTypes = {
+  error: PropTypes.string,
 }
 
 const InboxScreen = () => {
